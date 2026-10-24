@@ -1,0 +1,203 @@
+body {
+    background-color: rgb(255, 252, 236);
+    color: rgb(43, 45, 34);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nazev {
+    text-align:center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    position: sticky;
+    max-width: 60%;
+    margin: 0 auto;
+}  
+
+.nazev h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: rgb(244, 247, 244);
+    margin: 0;
+    border: solid black 2px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgb(74, 107, 83);
+}
+#nav {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(74, 107, 83);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#nav a {
+    border: solid black 2px;
+    padding: 8px 18px;
+    color: rgb(249, 248, 243);
+    transition: 0.5s;
+    background-color: rgb(49, 87, 44);
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+
+#nav a:hover {
+    color: rgb(43, 45, 34);
+    background-color: rgb(212, 163, 115);
+}   
+
+.podnazev {
+    color: rgb(74, 107, 83);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    
+}
+
+.uvod {
+    background-color: rgb(49, 87, 44);
+    display: inline-block;
+    color: white;
+}
+
+.uvod h3 {
+    max-width: 600px;
+    margin: 40px;
+    padding: 30px 40px;
+    text-align: left;
+    font-size: 30px;
+}
+.uvod p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 40px;
+    padding: 30px 40px;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+
+.obsah-row {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 40px;               
+    flex-wrap: wrap;         
+    max-width: 1200px;
+    margin: 40px auto;       
+    padding: 0 20px;
+}
+
+
+.uvod {
+    background-color: rgb(49, 87, 44);
+    color: white;
+    padding: 30px 40px;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.uvod h3 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.uvod p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+
+.restaurace, .pivo {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: solid black 13px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.restaurace:hover, .pivo:hover {
+    transform: scale(1.03); 
+}
+
+.poduvod2 {
+    background-color: rgb(49, 87, 44);
+    flex: 1;
+    box-sizing: border-box;
+    color: white;
+    padding: 30px 40px;
+    margin-top: 300px;
+    font-size: 18px;
+}
+
+.poduvod2 h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(49, 87, 44);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.menu-list {
+    background-color: rgb(49, 87, 44);
+    color: white;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 50px 60px;
+    border: 3px solid black;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    text-align: left;
+}
+
+.menu-sekce {
+    margin-bottom: 30px;
+}
+
+.menu-sekce h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: rgb(212, 163, 115);
+    border-bottom: 2px solid rgb(212, 163, 115);
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.menu-sekce p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 10px 0;
+}
+
+.kontakt-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 40px;               
+    flex-wrap: wrap;               
+    margin: 40px auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+.pozadi {
+    background-color: white;
+    padding: 20px;
+    max-width: 60%;
+    margin: 0 auto;
+}
