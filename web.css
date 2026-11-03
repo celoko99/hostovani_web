@@ -12,6 +12,7 @@ body {
     position: sticky;
     max-width: 60%;
     margin: 0 auto;
+    top: 0;
 }  
 
 .nazev h1 {
