@@ -137,6 +137,8 @@ body {
     padding: 30px 40px;
     margin-top: 300px;
     font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid black;
 }
 
 .poduvod2 h3 {
